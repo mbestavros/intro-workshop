@@ -1,5 +1,7 @@
 # intro-workshop
 
+Hello!!
+
 Welcome! This workshop is intended to provide a basic overview of both the Linux command line and how to set up and use Git. They may seem a little complicated now, but both are very widely used in software and data science, and learning how to use them will be extremely crucial skills. Let's get started!
 
 ## Initial setup
@@ -61,7 +63,6 @@ Like mentioned above, we're currently in our "home" directory. This can vary a b
 Since the home directory is accessed quite frequently, it's shortened to `~`.
 
 Now, let's learn how to move around the filesystem! To make things easier, we're going to use a `git` command to pull down some files to work with:
-
 
 ```shell
 git clone https://github.com/mbestavros/intro-workshop.git
@@ -207,7 +208,7 @@ ssh-keygen -t rsa -C "your_email@example.com"
 
 The command will prompt you for an alternate file location and a password; it's okay to accept the defaults by pressing Enter. (If you'd like to password protect your key, go ahead - just remember your password!)
 
-Finally, check for the new key files using  `ls`:
+Finally, check for the new key files using `ls`:
 
 ```shell
 ls -al ~/.ssh
